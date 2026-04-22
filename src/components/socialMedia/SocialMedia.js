@@ -68,6 +68,19 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.substack ? (
+        <a
+          href={socialMediaLinks.substack}
+          className="icon-button substack" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-bookmark"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+
       {socialMediaLinks.instagram ? (
         <a
           href={socialMediaLinks.instagram}

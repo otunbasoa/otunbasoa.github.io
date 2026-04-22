@@ -20,26 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "otunba",
+  title: "Hi, I'm Tosin",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "My name is Anjorin Samson Oluwatosin, known professionally as Tosin Anjorin. I spent the last 10 years in the trenches of business, founding companies and leading teams. This journey gave me a unique lens, I understand that every architectural decision is a business decision. Today, I channel that 'technical founder' energy into DevSecOps and Cloud Engineering. With 3+ years of deep technical experience and a solid academic background (BSc & Diplomas in Computer Science and Cloud Engineering), I build systems that are as resilient as they are efficient. I don't just build platforms; I build competitive advantages."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/otunbasoa",
+  linkedin: "https://www.linkedin.com/in/oluwatosinanjorin/",
+  gmail: "anjorinolu.samson@gmail.com",
+  gitlab: "https://gitlab.com/otunba_soa",
+  substack: "https://substack.com/@cloudwithotunba",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +48,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "LEVERAGING CLOUD NATIVE STRATEGIES TO BUILD SECURE, SCALABLE & COST-EFFECTIVE SYSTEMS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Architecting resilient Cloud Infrastructure and Distributed Systems on AWS"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Implementing end-to-end DevSecOps pipelines with a Security-First mindset to harden SDLC"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Optimizing Cloud spend and system performance to drive organizational growth and ROI"
     )
   ],
 
@@ -65,65 +64,58 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-dharmachakra" // This is the official steering wheel icon for K8s
     },
     {
-      skillName: "python",
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "GitLab",
+      fontAwesomeClassname: "fab fa-gitlab"
+    },
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "GitHub Actions",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    },
+    {
+      skillName: "SQL Database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Security",
+      fontAwesomeClassname: "fas fa-shield-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
+
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -150,7 +142,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -171,7 +163,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -372,14 +364,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+2347048811107",
+  email_address: "anjorinolu.samson@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "otunbasoa", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
