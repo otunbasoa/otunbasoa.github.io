@@ -213,8 +213,7 @@ const bigProjects = {
   projects: [
     {
       projectName: "Cloud-Native EKS Infrastructure & GitOps Deployment",
-      projectDesc: `I designed and deployed a production-ready Amazon EKS cluster using Terraform, ensuring highly available infrastructure within a custom AWS VPC. I implemented a GitOps workflow using ArgoCD to automate the deployment of Google Online Boutique microservices.
-      ⚡ Tech Stack: Terraform, AWS EKS, ArgoCD, Helm, Istio`,
+      projectDesc: `I designed and deployed a production-ready Amazon EKS cluster using Terraform, ensuring highly available infrastructure within a custom AWS VPC. I implemented a GitOps workflow using ArgoCD to automate the deployment of Google Online Boutique microservices.`,
       footerLink: [
         {
           name: "View Code",
@@ -224,8 +223,7 @@ const bigProjects = {
     },
     {
       projectName: "End-to-End DevSecOps Pipeline & Vulnerability Management",
-      projectDesc: `I engineered a comprehensive DevSecOps pipeline for OWASP Juice Shop, automating security via a 'Shift-Left' approach. This includes Gitleaks for secrets, Semgrep/ZAP for SAST/DAST, and DefectDojo for centralized vulnerability management.
-      ⚡ Tools: Gitleaks, Semgrep, ZAP, Trivy, tfsec, DefectDojo`,
+      projectDesc: `I engineered a comprehensive DevSecOps pipeline for OWASP Juice Shop, automating security via a 'Shift-Left' approach. This includes Gitleaks for secrets, Semgrep/ZAP for SAST/DAST, Trivy for container scanning, tfsec for infrastructure auditing, and DefectDojo for centralized vulnerability management.`,
       footerLink: [
         {
           name: "View Pipeline",
