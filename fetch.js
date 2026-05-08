@@ -14,15 +14,18 @@ if (USE_GITHUB_DATA === "true" && GITHUB_USERNAME) {
     query: `{ user(login:"${GITHUB_USERNAME}") { name bio avatarUrl location pinnedItems(first: 6, types: [REPOSITORY]) { edges { node { ... on Repository { name description forkCount url id diskUsage stargazers { totalCount } primaryLanguage { name color } } } } } } }`
   });
   const options = {
-    hostname: "api.github.com",
+    hostname: "://github.com",
     path: "/graphql",
-    headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, "User-Agent": "Node" },
+    headers: {Authorization: `Bearer ${GITHUB_TOKEN}`, "User-Agent": "Node"},
     method: "POST"
   };
   const req = https.request(options, res => {
     let body = "";
-    res.on("data", d => body += d);
-    res.on("end", () => { if (res.statusCode === 200) fs.writeFileSync("./public/profile.json", body); });
+    res.on("data", d => (body += d));
+    res.on("end", () => {
+      if (res.statusCode === 200)
+        fs.writeFileSync("./public/profile.json", body);
+    });
   });
   req.write(query);
   req.end();
@@ -31,12 +34,12 @@ if (USE_GITHUB_DATA === "true" && GITHUB_USERNAME) {
 // --- SECTION 2: SUBSTACK DATA (Direct Fetch) ---
 (async () => {
   const SUBSTACK_USERNAME = "cloudwithotunba";
-  const RSS_URL = `https://${SUBSTACK_USERNAME}.substack.com/feed`;
+  const RSS_URL = `https://${SUBSTACK_USERNAME}://`;
   console.log(`Fetching Substack RSS directly from ${RSS_URL}...`);
 
   try {
     const feed = await parser.parseURL(RSS_URL);
-    
+
     // Structure the data to match what your Blog.js expects
     const blogData = {
       status: "ok",
@@ -55,6 +58,9 @@ if (USE_GITHUB_DATA === "true" && GITHUB_USERNAME) {
   } catch (error) {
     console.error("❌ Substack fetch failed:", error.message);
     // Create an empty valid structure so the site doesn't crash
-    fs.writeFileSync("./public/blogs.json", JSON.stringify({ status: "failed", items: [] }));
+    fs.writeFileSync(
+      "./public/blogs.json",
+      JSON.stringify({status: "failed", items: []})
+    );
   }
 })();
