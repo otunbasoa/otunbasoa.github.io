@@ -3,8 +3,7 @@ env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
   REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  USE_GITHUB_DATA: "false"
-  MEDIUM_USERNAME: ""
+  USE_GITHUB_DATA: "true"
 on:
   workflow_dispatch:
   push:
