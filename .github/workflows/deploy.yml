@@ -8,9 +8,13 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - master # This matches your default branch
   schedule:
     - cron: "0 12 * * 1"
+
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -23,7 +27,8 @@ jobs:
       - name: Setup Node.js 🔧
         uses: actions/setup-node@v4
         with:
-          node-version: 20  # Updated to 20 to support latest npm
+          node-version: 20
+          cache: 'npm'
 
       - name: Update npm 🚀
         run: npm install -g npm@latest
@@ -36,6 +41,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: main # Deploying to main for otunbasoa.github.io
           FOLDER: build
+          CLEAN: true
