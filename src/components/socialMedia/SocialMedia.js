@@ -71,7 +71,7 @@ export default function socialMedia() {
       {socialMediaLinks.substack ? (
         <a
           href={socialMediaLinks.substack}
-          className="icon-button substack" 
+          className="icon-button substack"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -79,7 +79,6 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-
 
       {socialMediaLinks.instagram ? (
         <a
