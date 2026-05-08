@@ -14,7 +14,7 @@ if (USE_GITHUB_DATA === "true" && GITHUB_USERNAME) {
     query: `{ user(login:"${GITHUB_USERNAME}") { name bio avatarUrl location pinnedItems(first: 6, types: [REPOSITORY]) { edges { node { ... on Repository { name description forkCount url id diskUsage stargazers { totalCount } primaryLanguage { name color } } } } } } }`
   });
   const options = {
-    hostname: "://github.com",
+    hostname: "api.github.com",
     path: "/graphql",
     headers: {Authorization: `Bearer ${GITHUB_TOKEN}`, "User-Agent": "Node"},
     method: "POST"
@@ -34,7 +34,7 @@ if (USE_GITHUB_DATA === "true" && GITHUB_USERNAME) {
 // --- SECTION 2: SUBSTACK DATA (Direct Fetch) ---
 (async () => {
   const SUBSTACK_USERNAME = "cloudwithotunba";
-  const RSS_URL = `https://${SUBSTACK_USERNAME}://`;
+  const RSS_URL = `https://${SUBSTACK_USERNAME}.substack.com/feed`;
   console.log(`Fetching Substack RSS directly from ${RSS_URL}...`);
 
   try {

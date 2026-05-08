@@ -23,7 +23,9 @@ const greeting = {
   username: "otunba",
   title: "Hi, I'm Tosin",
   subTitle: emoji(
-    "My name is Anjorin Samson Oluwatosin, known professionally as Tosin Anjorin. I spent the last 10 years in the trenches of business, founding companies and leading teams. This journey gave me a unique lens, I understand that every architectural decision is a business decision. Today, I channel that 'technical founder' energy into DevSecOps and Cloud Engineering. With 3+ years of deep technical experience and a solid academic background (BSc & Diplomas in Computer Science and Cloud Engineering), I build systems that are as resilient as they are efficient. I don't just build platforms; I build competitive advantages."
+    `My name is Anjorin Samson Oluwatosin, professionally known as Tosin Anjorin. Over the past decade, I have been in the trenches of business by founding companies, leading teams, and navigating the realities of building from the ground up. This journey gave me a unique lens because I understand that every architectural decision is a business decision.
+Today, I bring that technical founder mindset into DevSecOps and Cloud Engineering. I design, secure, and automate cloud infrastructure while building scalable systems, implementing CI/CD pipelines, and embedding security into every stage of development.
+With over three years of deep technical experience in DevSecOps and Cloud Computing, backed by a strong academic foundation in B.Sc. Computer Science and a Diploma in Cloud Engineering, I build systems that are not only efficient but resilient by design. I do not just build platforms, I engineer systems that create and sustain competitive advantage.`
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
