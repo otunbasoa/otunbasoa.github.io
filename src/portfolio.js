@@ -208,35 +208,44 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME INTERESTING PROJECTS I HAVE BUILT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Cloud-Native EKS Infrastructure & GitOps Deployment",
+      projectDesc: `I designed and deployed a production-ready Amazon EKS cluster using Terraform, ensuring highly available infrastructure within a custom AWS VPC. I implemented a GitOps workflow using ArgoCD to automate the deployment of Google Online Boutique microservices.`,
+      // Add a field like this if your template supports it, or keep it in the description
+      softwareSkills: [
+        { skillName: "Terraform", fontAwesomeClassname: "logos:terraform" },
+        { skillName: "AWS EKS", fontAwesomeClassname: "logos:aws-eks" },
+        { skillName: "ArgoCD", fontAwesomeClassname: "logos:argocd" }
+      ],
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Code",
+          url: "https://gitlab.com/otunba_soa/infra-automation-eks/-/tree/feature/7-istio"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "End-to-End DevSecOps Pipeline & Vulnerability Management",
+      projectDesc: `I engineered a comprehensive DevSecOps pipeline for OWASP Juice Shop, automating security via a 'Shift-Left' approach. This includes Gitleaks for secrets, Semgrep/ZAP for SAST/DAST, and DefectDojo for centralized vulnerability management.`,
+      softwareSkills: [
+        { skillName: "Semgrep", fontAwesomeClassname: "simple-icons:semgrep" },
+        { skillName: "Trivy", fontAwesomeClassname: "simple-icons:trivy" },
+        { skillName: "DefectDojo", fontAwesomeClassname: "simple-icons:defectdojo" }
+      ],
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Pipeline",
+          url: "https://gitlab.com/otunba_soa/juice-shop/-/blob/master/README.md"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
