@@ -307,14 +307,17 @@ const blogSection = {
   displayMediumBlogs: "false", // CHANGED TO FALSE to stop the build error
   blogs: [
     {
-      url: "https://substack.com", // Replace with your Substack link
-      title: "My Substack Post Title",
-      description: "A short summary of what this post is about."
+      url: "https://cloudwithotunba.substack.com/p/how-to-learn-any-new-skill-and-finally?r=31wc2n", // Replace with your Substack link
+      title: "How to learn any new skill and finally stay productive.",
+      description:
+        "How to stay motivated, manage your time and master new skills even with a busy schedule."
     },
     {
-      url: "https://substack.com", // Your main Substack home
-      title: "Subscribe to my Substack",
-      description: "Stay updated with my latest thoughts and tech deep-dives."
+      url: "https://cloudwithotunba.substack.com/p/the-beginners-guide-to-learning-aws?r=31wc2n", // Your main Substack home
+      title:
+        "The Beginner’s Guide to Learning AWS (What I Wish I Had 3 Years Ago).",
+      description:
+        "AWS for Beginners: The Guide I Wish I Had When Starting My Cloud Journey."
     }
   ],
   display: true
@@ -336,7 +339,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -349,7 +352,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -358,7 +361,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
