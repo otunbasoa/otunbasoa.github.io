@@ -228,7 +228,7 @@ const bigProjects = {
         "I engineered a comprehensive DevSecOps pipeline for OWASP Juice Shop, automating security via a 'Shift-Left' approach. This includes Gitleaks for secrets, Semgrep/ZAP for SAST/DAST, Trivy for container scanning, tfsec for infrastructure auditing, and DefectDojo for centralized vulnerability management.",
       footerLink: [
         {
-          name: "View code",
+          name: "View Code",
           url: "https://gitlab.com/otunba_soa/juice-shop/-/blob/master/README.md"
         }
       ]
@@ -295,7 +295,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
