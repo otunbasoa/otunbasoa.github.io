@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master # This matches your default branch
+      - develop # This matches your default branch
   schedule:
     - cron: "0 12 * * 1"
 
@@ -42,6 +42,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: main # Deploying to main for otunbasoa.github.io
+          BRANCH: master # Deploying to main for otunbasoa.github.io
           FOLDER: build
           CLEAN: true
