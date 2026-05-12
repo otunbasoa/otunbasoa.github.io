@@ -213,6 +213,31 @@ const bigProjects = {
   projects: [
     {
       projectName: "Cloud-Native EKS Infrastructure & GitOps Deployment",
+      projectDesc: "I designed and deployed a production-ready Amazon EKS cluster using Terraform, ensuring highly available infrastructure within a custom AWS VPC. I implemented a GitOps workflow using ArgoCD to automate the deployment of Google Online Boutique microservices.",
+      footerLink: [{ name: "View Code", url: "https://gitlab.com/otunba_soa/infra-automation-eks/-/tree/feature/7-istio" }]
+    },
+    {
+      projectName: "End-to-End DevSecOps Pipeline & Vulnerability Management",
+      projectDesc: "I engineered a comprehensive DevSecOps pipeline for OWASP Juice Shop, automating security via a 'Shift-Left' approach. This includes Gitleaks for secrets, Semgrep/ZAP for SAST/DAST, Trivy for container scanning, tfsec for infrastructure auditing, and DefectDojo for centralized vulnerability management.",
+      footerLink: [{ name: "View Code", url: "https://gitlab.com/otunba_soa/juice-shop/-/blob/master/README.md" }]
+    },
+    // Add 5 more projects here to reach a total of 7
+    { projectName: "Linux/Shell Scripting Automation", projectDesc: "Developed a comprehensive automation framework to manage the full lifecycle of AWS cloud infrastructure and Linux system administration. This project bridges the gap between Infrastructure as Code (IaC) and proactive system monitoring using advanced Bash scripting and the AWS CLI.", footerLink: [{ name: "View Code", url: "https://gitlab.com/otunba_soa/portfolio-projects/-/tree/main" }] },
+//    { projectName: "Project 4", projectDesc: "Description...", footerLink: [] },
+//    { projectName: "Project 5", projectDesc: "Description...", footerLink: [] },
+//    { projectName: "Project 6", projectDesc: "Description...", footerLink: [] },
+//    { projectName: "Project 7", projectDesc: "Description...", footerLink: [] },
+  ],
+  display: true
+};
+
+
+/*const bigProjects = {
+  title: "Projects",
+  subtitle: "SOME INTERESTING PROJECTS I HAVE BUILT",
+  projects: [
+    {
+      projectName: "Cloud-Native EKS Infrastructure & GitOps Deployment",
       projectDesc:
         "I designed and deployed a production-ready Amazon EKS cluster using Terraform, ensuring highly available infrastructure within a custom AWS VPC. I implemented a GitOps workflow using ArgoCD to automate the deployment of Google Online Boutique microservices.",
       footerLink: [
@@ -235,7 +260,7 @@ const bigProjects = {
     }
   ],
   display: true
-};
+};*/
 
 // Achievement Section
 // Include certificates, talks etc
