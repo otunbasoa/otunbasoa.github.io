@@ -23,7 +23,7 @@ const greeting = {
   username: "otunba",
   title: "Hi, I'm Tosin",
   subTitle: emoji(
-    `My name is Anjorin Samson Oluwatosin. I’m a DevOps and Cloud Engineer with over three years of experience building secure, automated, and scalable cloud infrastructure. Before transitioning into DevOps, I worked in sales, business operations, and co-founded an e-commerce startup. Running a business taught me firsthand that technology decisions directly impact operations, customer satisfaction, and the bottom line.Today, I use that business mindset to design infrastructure that helps engineering teams ship software faster while keeping costs down and systems reliable.I hold a B.Sc. in Computer Science and a Diploma in Cloud Engineering, and I'm always building new projects to keep pushing the boundaries of what cloud automation can do.`
+    `My name is Anjorin Samson Oluwatosin. I’m a DevOps and Cloud Engineer with over three years of experience building secure, automated, and scalable cloud infrastructure. Before transitioning into DevOps, I worked in sales, business operations, and co-founded an e-commerce startup. Running a business taught me firsthand that technology decisions directly impact operations, customer satisfaction, and the bottom line. Today, I use that business mindset to design infrastructure that helps engineering teams ship software faster while keeping costs down and systems reliable. I hold a B.Sc. in Computer Science and a Diploma in Cloud Engineering, and I'm always building new projects to keep pushing the boundaries of what cloud automation can do.`
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -412,7 +412,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+2347048811107",
+  // number: "+2347048811107",
   email_address: "anjorinolu.samson@gmail.com"
 };
 
