@@ -23,15 +23,7 @@ const greeting = {
   username: "otunba",
   title: "Hi, I'm Tosin",
   subTitle: emoji(
-    `Hi, I'm Tosin 👋
-
-My name is Anjorin Samson Oluwatosin, professionally known as Tosin Anjorin. Before transitioning fully into DevOps and Cloud Engineering, I worked across business operations, sales, and entrepreneurship, including co-founding an e-commerce business. That experience gave me a practical understanding of how technology decisions affect operations, customer experience, and business growth.
-
-Today, I work as a DevOps and Cloud Engineer with over 3 years of experience building, automating, and securing cloud infrastructure. I specialize in AWS, CI/CD pipelines, Infrastructure as Code, containerized environments, observability, and DevSecOps practices, with a strong focus on building systems that are scalable, resilient, secure, and cost-efficient.
-
-I enjoy designing infrastructure that helps teams ship faster, reduce operational overhead, and maintain reliability in production environments. My approach combines technical execution with a practical understanding of how engineering decisions affect business growth, customer experience, and long-term scalability.
-
-I hold a B.Sc. in Computer Science and a Diploma in Cloud Engineering, and I’m continuously building projects that deepen my expertise in cloud infrastructure, automation, security, and platform reliability.`
+    `My name is Anjorin Samson Oluwatosin. I’m a DevOps and Cloud Engineer with over three years of experience building secure, automated, and scalable cloud infrastructure. Before transitioning into DevOps, I worked in sales, business operations, and co-founded an e-commerce startup. Running a business taught me firsthand that technology decisions directly impact operations, customer satisfaction, and the bottom line.Today, I use that business mindset to design infrastructure that helps engineering teams ship software faster while keeping costs down and systems reliable.I hold a B.Sc. in Computer Science and a Diploma in Cloud Engineering, and I'm always building new projects to keep pushing the boundaries of what cloud automation can do.`
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
