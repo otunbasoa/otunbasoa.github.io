@@ -23,9 +23,15 @@ const greeting = {
   username: "otunba",
   title: "Hi, I'm Tosin",
   subTitle: emoji(
-    `My name is Anjorin Samson Oluwatosin, professionally known as Tosin Anjorin. Over the past decade, I have been in the trenches of business by founding companies, leading teams, and navigating the realities of building from the ground up. This journey gave me a unique lens because I understand that every architectural decision is a business decision.
-Today, I bring that technical founder mindset into DevSecOps and Cloud Engineering. I design, secure, and automate cloud infrastructure while building scalable systems, implementing CI/CD pipelines, and embedding security into every stage of development.
-With over three years of deep technical experience in DevSecOps and Cloud Computing, backed by a strong academic foundation in B.Sc. Computer Science and a Diploma in Cloud Engineering, I build systems that are not only efficient but resilient by design. I do not just build platforms, I engineer systems that create and sustain competitive advantage.`
+    `Hi, I'm Tosin 👋
+
+My name is Anjorin Samson Oluwatosin, professionally known as Tosin Anjorin. Before transitioning fully into DevOps and Cloud Engineering, I worked across business operations, sales, and entrepreneurship, including co-founding an e-commerce business. That experience gave me a practical understanding of how technology decisions affect operations, customer experience, and business growth.
+
+Today, I work as a DevOps and Cloud Engineer with over 3 years of experience building, automating, and securing cloud infrastructure. I specialize in AWS, CI/CD pipelines, Infrastructure as Code, containerized environments, observability, and DevSecOps practices, with a strong focus on building systems that are scalable, resilient, secure, and cost-efficient.
+
+I enjoy designing infrastructure that helps teams ship faster, reduce operational overhead, and maintain reliability in production environments. My approach combines technical execution with a practical understanding of how engineering decisions affect business growth, customer experience, and long-term scalability.
+
+I hold a B.Sc. in Computer Science and a Diploma in Cloud Engineering, and I’m continuously building projects that deepen my expertise in cloud infrastructure, automation, security, and platform reliability.`
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
