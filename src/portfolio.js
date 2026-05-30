@@ -253,6 +253,17 @@ const bigProjects = {
           url: "https://gitlab.com/otunba_soa/terraform-image-optimizer.git"
         }
       ]
+    },
+    {
+      projectName: " Node.js GitLab CI/CD Pipeline Demo",
+      projectDesc:
+        "A Node.js project showcasing an automated GitLab CI/CD workflow for building, testing, and deploying applications. It demonstrates practical DevOps practices, including pipeline configuration, dependency management, and continuous integration setup for reliable software delivery.",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://gitlab.com/otunba_soa/node-gitlab-cicd.git"
+        }
+      ]
     }
     //    { projectName: "Project 4", projectDesc: "Description...", footerLink: [] },
     //    { projectName: "Project 5", projectDesc: "Description...", footerLink: [] },
