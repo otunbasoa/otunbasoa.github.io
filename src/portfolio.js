@@ -242,6 +242,17 @@ const bigProjects = {
           url: "https://gitlab.com/otunba_soa/portfolio-projects/-/tree/main"
         }
       ]
+    },
+    {
+      projectName: "Serverless Image Optimization Pipeline on AWS",
+      projectDesc:
+        "Built a serverless image optimization pipeline for Conaj using AWS S3, Lambda, CloudFront, IAM, and Terraform. The system automatically processes property images when they are uploaded to S3, resizes large images, compresses them into web-friendly JPEG files, stores the optimized versions in a private S3 bucket, and serves them through CloudFront for faster delivery. This reduced manual image handling, improved media delivery performance, and helped lower storage and hosting overhead.",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://gitlab.com/otunba_soa/terraform-image-optimizer.git"
+        }
+      ]
     }
     //    { projectName: "Project 4", projectDesc: "Description...", footerLink: [] },
     //    { projectName: "Project 5", projectDesc: "Description...", footerLink: [] },
