@@ -23,7 +23,7 @@ const greeting = {
   username: "otunba",
   title: "Hi, I'm Tosin",
   subTitle: emoji(
-    `I'm Anjorin Samson Oluwatosin, a DevOps and Systems Improvement Engineer focused on helping organisations deliver value faster.
+    `My name is Anjorin Samson Oluwatosin, a DevOps and Systems Improvement Engineer focused on helping organisations deliver value faster.
 DevOps is often associated with software development, but the principles behind it extend far beyond technology. Every organisation, whether a tech startup, manufacturing companies, churches, non-profits, and growing businesses all face a common challenge where valuable work becomes trapped in bottlenecks, handoffs, approvals, and inefficient processes that slow execution and limit results.
 
 
@@ -33,7 +33,7 @@ My background in engineering, sales, business operations, and entrepreneurship g
 
 I hold a B.Sc. in Computer Science and a Diploma in Cloud Engineering, but what drives me most is helping organisations work better. Every organisation is perfectly designed to produce its current results. When friction is reduced, waste is eliminated, and work moves more smoothly through the system, organisations gain speed, efficiency, and the ability to deliver greater value.
 
-My goal is helping organisations move from delayed execution to continuous value delivery. I don't just build systems to manage infrastructure. I build systems that enable businesses to scale, adapt, and consistently create value. Let's work together to unlock your true operational velocity and directly impact your bottom line.
+My goal is helping organisations move from delayed execution to continuous value delivery. I don't just build systems to manage infrastructure. I build systems that enable businesses to scale, adapt, and consistently create value. Let's work together to remove operational bottlenecks, improve the flow of work, and unlock sustainable growth.
 `
   ),
   resumeLink: "", // Set to empty to hide the button
