@@ -23,7 +23,18 @@ const greeting = {
   username: "otunba",
   title: "Hi, I'm Tosin",
   subTitle: emoji(
-    `My name is Anjorin Samson Oluwatosin. I’m a DevOps and Cloud Engineer with over three years of experience building secure, automated, and scalable cloud infrastructure. Before transitioning into DevOps, I worked in sales, business operations, and co-founded an e-commerce startup. Running a business taught me firsthand that technology decisions directly impact operations, customer satisfaction, and the bottom line. Today, I use that business mindset to design infrastructure that helps engineering teams ship software faster while keeping costs down and systems reliable. I hold a B.Sc. in Computer Science and a Diploma in Cloud Engineering, and I'm always building new projects to keep pushing the boundaries of what cloud automation can do.`
+    `I'm Anjorin Samson Oluwatosin, a DevOps and Systems Improvement Engineer focused on helping organisations deliver value faster.
+DevOps is often associated with software development, but the principles behind it extend far beyond technology. Every organisation, whether a tech startup, manufacturing companies, churches, non-profits, and growing businesses all face a common challenge where valuable work becomes trapped in bottlenecks, handoffs, approvals, and inefficient processes that slow execution and limit results.
+
+
+My work focuses on identifying and removing those constraints. Using systems thinking, automation, cloud technologies, and continuous improvement practices, I help organisations create smoother, more reliable value streams that enable teams to work more effectively and deliver better outcomes.
+
+My background in engineering, sales, business operations, and entrepreneurship gives me a practical understanding of how operational inefficiencies affect customers, employees, and organisational growth.  Rather than simply implementing tools, I focus on improving the systems through which work flows.
+
+I hold a B.Sc. in Computer Science and a Diploma in Cloud Engineering, but what drives me most is helping organisations work better. Every organisation is perfectly designed to produce its current results. When friction is reduced, waste is eliminated, and work moves more smoothly through the system, organisations gain speed, efficiency, and the ability to deliver greater value.
+
+My goal is helping organisations move from delayed execution to continuous value delivery. I don't just build systems to manage infrastructure. I build systems that enable businesses to scale, adapt, and consistently create value. Let's work together to unlock your true operational velocity and directly impact your bottom line.
+`
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
